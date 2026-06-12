@@ -1,77 +1,64 @@
 # Meridian Global
 
-Building the AI Content Operating System.
-
-Meridian Global is a New York-based company focused on transforming how ideas become distribution.
-
-We believe the future of content is not writing faster,  
-but understanding what should be written — and orchestrating it across platforms.
+AI content engine — from one idea to platform-native content, measured outcomes, and AI-citation readiness.
 
 ---
 
-## What We’re Building
+## What We Build
 
-### Orchestra
+### [Neoxra](https://neoxra.com)
 
-A system that turns a single idea into platform-native content.
+Neoxra turns a single idea into publish-ready content across Instagram carousels, SEO articles, Threads, and Facebook. It then measures real outcomes (GA4, Google Search Console, Meta insights) and produces white-label monthly performance reports.
 
-From one input → multiple outputs across:
-- LinkedIn
-- Instagram
-- Threads
-
-Not just generation.  
-But coordination.
+Neoxra also optimizes content for the AI-citation era: Schema.org structured data so products get cited in ChatGPT and Claude answers.
 
 ---
 
-## System
+## How It Works
 
-We are building a new layer between ideas and distribution:
-
-- Capture signals  
-- Refine thinking  
-- Orchestrate outputs  
-
-All in one system.
+- **Multi-agent pipeline** — Planner agent decomposes the idea, platform-specific agents draft native content, Critic agent reviews before publish.
+- **Outcome measurement** — Connects to GA4, Google Search Console, and Meta insights; surfaces what actually moved the needle.
+- **AI-citation optimization** — Injects Schema.org structured data so search engines and LLM-powered answers can cite your content.
+- **White-label reporting** — Generates branded monthly performance reports ready for client delivery.
 
 ---
 
-## Thesis
+## Live Proof
 
-Most AI tools help you write faster.
+Every piece of content on [hogan.tech](https://www.instagram.com/hogan.tech/) (~30K software engineers on Instagram) is generated and measured with Neoxra itself. See the case study: [neoxra.com/use-cases/hogan-tech](https://neoxra.com/use-cases/hogan-tech).
 
-We focus on something more fundamental:
+---
 
-What should be written in the first place.
+## Tech
+
+Claude API, Python / FastAPI, Next.js, PostgreSQL, Pillow (PIL) rendering service.
 
 ---
 
 ## Repositories
 
-- https://github.com/Meridian-Global/orchestra
+| Repo | Description |
+|------|-------------|
+| [neoxra-linkedin](https://github.com/Meridian-Global/neoxra-linkedin) | Public sample — LinkedIn content pipeline |
 
----
-
-## About
-
-Hogan  
-Taiwan → New York  
-
-Building at the intersection of software, content, and distribution.
-
-LinkedIn:  
-https://www.linkedin.com/in/hogan-l
+Core repos (`neoxra`, `neoxra-core`, `neoxra-renderer`) are private.
 
 ---
 
 ## Open To
 
-- early users  
-- design partners  
-- collaborators  
+- Design partners and pilot inquiries
+- Collaborators
+
+Contact: [hoganlin.tech@gmail.com](mailto:hoganlin.tech@gmail.com)
 
 ---
 
-We are not building tools.  
-We are building the system behind modern content.
+## About
+
+**Meridian Global LLC** — New York
+
+Founded by [Hogan Lin](https://www.linkedin.com/in/hogan-lin).
+
+<!-- NOTE for Hogan: The org sidebar URL currently reads meridiang-global.com (extra "g").
+     Update it to https://neoxra.com in GitHub org settings → Profile → URL. -->
