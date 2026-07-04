@@ -58,7 +58,7 @@ Contact: [hoganlin.tech@gmail.com](mailto:hoganlin.tech@gmail.com)
 
 **Meridian Global LLC** — New York
 
-Founded by [Hogan Lin](https://www.linkedin.com/in/hogan-lin).
+Founded by [Hogan Lin](https://www.linkedin.com/in/hogan-l/).
 
 <!-- NOTE for Hogan: The org sidebar URL currently reads meridiang-global.com (extra "g").
      Update it to https://neoxra.com in GitHub org settings → Profile → URL. -->
